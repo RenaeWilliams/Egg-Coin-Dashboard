@@ -1,11 +1,11 @@
 .container {
-  min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  background-color:black;
+  color: white;
 }
 
 .main {
@@ -109,7 +109,7 @@
 }
 
 .logo {
-  height: 1em;
+  height: 3em;
   margin-left: 0.5rem;
 }
 
@@ -118,4 +118,20 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.header {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 60px;
+}
+.p {
+  letter-spacing: 3px;
+  font-size: 24px;
+}
+.td {
+  letter-spacing: 2px;
+}
+.marketcap {
+  letter-spacing: 3px;
 }
